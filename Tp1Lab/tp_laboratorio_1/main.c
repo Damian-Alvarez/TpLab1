@@ -1,5 +1,5 @@
 #include <stdlib.h>
-#include "funciones.h"
+#include "Funciones.h"
 
 int main()
 {
@@ -50,13 +50,9 @@ case 2:
 case 3:
     factorial1= FactorizarNumero(numero1);
     factorial2= FactorizarNumero(numero2);
-    printf("\nEl factorial de %d es %d , y el de %d es %d\n", numero1, factorial1, numero2,factorial2);
     suma= SumarNumeros(numero1,numero2);
-    printf("La suma de los numeros es de: %d\n", suma);
     resta= RestarNumeros(numero1,numero2);
-    printf("La resta de los numeros es de: %d\n", resta);
     multiplicar= MultiplicarNumeros(numero1,numero2);
-    printf("La multiplicacion de los numeros es de: %d\n", multiplicar);
     while(numero2==0){
     printf("No se puede dividir por 0, ingrese los numeros otra vez.\n");
     printf("Ingrese el primer numero: ");
@@ -65,7 +61,6 @@ case 3:
     scanf("%d", &numero2);
 }
     dividir= DividirNumeros(numero1,numero2);
-    printf("La division de los numeros es: %.2f\n", dividir);
     break;
 
 case 4:
