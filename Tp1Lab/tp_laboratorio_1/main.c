@@ -13,11 +13,28 @@ int factorial1;
 int factorial2;
 int opcion;
 int flag;
+int flag2;
+int flag3;
 
 flag=0;
+flag2=0;
+flag3=0;
 
 do{
-printf("\n1.Ingresar primer numero\n");
+system("cls");
+ if (flag2 == 0) {
+        printf("1. Ingresar primer operando (A=x)\n");
+        }
+        else {
+        printf("1. Ingresar primer operando (A=%d)\n", numero1);
+        }
+        if (flag3 == 0) {
+        printf("2. Ingresar segundo operando (B=y)\n");
+        }
+        else {
+            printf("2. Ingresar segundo operando (B=%d)\n", numero2);
+        }
+printf("\n1.Ingresar primer numero\n ");
 printf("2.Ingresar segundo numero\n");
 printf("3.Calcular\n");
 printf("4.Mostrar operacion\n");
@@ -42,13 +59,13 @@ case 1:
     printf("Ingrese el primer numero: ");
     fflush(stdin);
     scanf("%d", &numero1);
-    printf("\nPrimerNumero=%d\n", numero1);
+    flag2=1;
     break;
 case 2:
     printf("Ingrese el segundo numero: ");
     fflush(stdin);
     scanf("%d", &numero2);
-    printf("\nB=%d\n", numero2);
+    flag3=1;
     break;
 case 3:
     factorial1= FactorizarNumero(numero1);

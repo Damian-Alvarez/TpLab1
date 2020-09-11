@@ -17,7 +17,7 @@ int MultiplicarNumeros(int primerNumeroMultiplicar,int segundoNumeroMultiplicar)
     multiplicar= primerNumeroMultiplicar * segundoNumeroMultiplicar;
     return multiplicar;
     }
-float DividirNumeros(float primerNumeroDividir,int segundoNumeroDividir)
+float DividirNumeros(float primerNumeroDividir,float segundoNumeroDividir)
 {
     float dividir;
     dividir= primerNumeroDividir / segundoNumeroDividir;
