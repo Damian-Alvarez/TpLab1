@@ -33,6 +33,7 @@ printf("3.Calcular\n");
 printf("4.Mostrar operacion\n");
 printf("5.Salir\n");
 printf("Elija la opcion: ");
+fflush(stdin);
 scanf("%d", &opcion);
 }
 
@@ -88,6 +89,7 @@ case 5:
     flag=1;
     break;
         }
+    system('pause');
     }while(flag==0);
 return 0;
 }
