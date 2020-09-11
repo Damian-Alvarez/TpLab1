@@ -102,7 +102,7 @@ case 4:
     scanf("%d", &numero2);
 }
     dividir= DividirNumeros(numero1,numero2);
-    printf("\nEl resultado de %d/%d es: %.2f",numero1, numero2, dividir);
+    printf("\nEl resultado de %d/%d es: %.2f\n",numero1, numero2, dividir);
     break;
 case 5:
     flag=1;
