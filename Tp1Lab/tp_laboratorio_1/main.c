@@ -89,7 +89,6 @@ case 5:
     flag=1;
     break;
         }
-    system('pause');
     }while(flag==0);
 return 0;
 }
