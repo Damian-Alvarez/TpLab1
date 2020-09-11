@@ -40,11 +40,13 @@ scanf("%d", &opcion);
 switch(opcion){
 case 1:
     printf("Ingrese el primer numero: ");
+    fflush(stdin);
     scanf("%d", &numero1);
     printf("\nPrimerNumero=%d\n", numero1);
     break;
 case 2:
     printf("Ingrese el segundo numero: ");
+    fflush(stdin);
     scanf("%d", &numero2);
     printf("\nB=%d\n", numero2);
     break;
