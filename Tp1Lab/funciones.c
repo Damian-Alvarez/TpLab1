@@ -24,7 +24,7 @@ float DividirNumeros(float primerNumeroDividir,float segundoNumeroDividir)
     return dividir;
     }
 long int FactorizarNumero(int numeroFactorial){
-int factorial;
+long int factorial;
 if (numeroFactorial>=13){
     return -1;
 }

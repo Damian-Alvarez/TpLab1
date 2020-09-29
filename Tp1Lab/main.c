@@ -9,32 +9,30 @@ int numero1;
 int numero2;
 int resta;
 float dividir;
-int factorial1;
-int factorial2;
+long int factorial1;
+long int factorial2;
 int opcion;
-int flag;
+int flag1;
 int flag2;
-int flag3;
 
-flag=0;
+flag1=0;
 flag2=0;
-flag3=0;
 
 do{
 system("cls");
- if (flag2 == 0) {
+ if (flag1 == 0) {
         printf("1. Ingresar primer operando (A=x)\n");
         }
         else {
         printf("1. Ingresar primer operando (A=%d)\n", numero1);
         }
-        if (flag3 == 0) {
+        if (flag2 == 0) {
         printf("2. Ingresar segundo operando (B=y)\n");
         }
         else {
             printf("2. Ingresar segundo operando (B=%d)\n", numero2);
         }
-printf("\n1.Ingresar primer numero\n ");
+printf("\n1.Ingresar primer numero\n");
 printf("2.Ingresar segundo numero\n");
 printf("3.Calcular\n");
 printf("4.Mostrar operacion\n");
@@ -59,13 +57,13 @@ case 1:
     printf("Ingrese el primer numero: ");
     fflush(stdin);
     scanf("%d", &numero1);
-    flag2=1;
+    flag1=1;
     break;
 case 2:
     printf("Ingrese el segundo numero: ");
     fflush(stdin);
     scanf("%d", &numero2);
-    flag3=1;
+    flag2=1;
     break;
 case 3:
     factorial1= FactorizarNumero(numero1);
@@ -105,10 +103,9 @@ case 4:
     printf("\nEl resultado de %d/%d es: %.2f\n",numero1, numero2, dividir);
     break;
 case 5:
-    flag=1;
     break;
         }
     system("pause");
-    }while(flag==0);
+    }while(opcion !=5);
 return 0;
 }
