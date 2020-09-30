@@ -1,3 +1,87 @@
 # depslib dependency file v1.0
-1601400509 source:c:\users\dami_\onedrive\escritorio\tpslab\tplab1\trabajopractico2\arrayemployees.c
+1601416678 source:c:\users\dami_\onedrive\escritorio\tpslab\tplab1\trabajopractico2\arrayemployees.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<limits.h>
+	<float.h>
+	"ArrayEmployees.h"
+	"utn.h"
+
+1601416177 source:c:\users\dami_\onedrive\escritorio\tpslab\tplab1\trabajopractico2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+	"ArrayEmployees.h"
+	"utn.c"
+
+1601417146 c:\users\dami_\onedrive\escritorio\tpslab\tplab1\trabajopractico2\utn.h
+	"utn.c"
+
+1601415475 c:\users\dami_\onedrive\escritorio\tpslab\tplab1\trabajopractico2\arrayemployees.h
+
+1592687950 c:\users\dami_\onedrive\escritorio\tpslab\tplab1\trabajopractico2\utn.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+
+1601416678 source:c:\users\dami_\onedrive\escritorio\trabajopractico2\arrayemployees.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<limits.h>
+	<float.h>
+	"ArrayEmployees.h"
+	"utn.h"
+
+1601415475 c:\users\dami_\onedrive\escritorio\trabajopractico2\arrayemployees.h
+
+1601419656 c:\users\dami_\onedrive\escritorio\trabajopractico2\utn.h
+
+1592687950 c:\users\dami_\onedrive\escritorio\trabajopractico2\utn.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+
+1601419656 source:c:\users\dami_\onedrive\escritorio\trabajopractico2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayEmployees.h"
+	"utn.h"
+
+1601419656 source:c:\users\dami_\onedrive\escritorio\trabajopractico2\utn.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+
+1601416678 source:c:\users\dami_\onedrive\escritorio\tpslab\trabajopractico2\arrayemployees.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<limits.h>
+	<float.h>
+	"ArrayEmployees.h"
+	"utn.h"
+
+1601433930 c:\users\dami_\onedrive\escritorio\tpslab\trabajopractico2\arrayemployees.h
+
+1601419656 c:\users\dami_\onedrive\escritorio\tpslab\trabajopractico2\utn.h
+
+1601419656 source:c:\users\dami_\onedrive\escritorio\tpslab\trabajopractico2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayEmployees.h"
+	"utn.h"
+
+1601419656 source:c:\users\dami_\onedrive\escritorio\tpslab\trabajopractico2\utn.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
 

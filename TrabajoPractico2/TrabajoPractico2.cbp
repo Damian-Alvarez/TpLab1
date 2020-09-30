@@ -34,9 +34,14 @@
 		<Unit filename="ArrayEmployees.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="ArrayEmployees.h" />
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="utn.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="utn.h" />
 		<Extensions />
 	</Project>
 </CodeBlocks_project_file>
