@@ -66,11 +66,11 @@ int main()
                 printf("\n 1.LISTA DE LOS EMPLEADOS ORDENADOS ALFABETICAMENTE POR APELLIDO Y SECTOR");
                 printf("\n 2.TOTAL Y PROMEDIO DE LOS SALARIOS, Y CUANTOS EMPLEADOS SUPERAN EL SALARIO PROMEDIO");
 
-                utn_getInt(&subOption,"\nIngrese la opcion: ","\nError, reingrese: ",0,3);
+                utn_getInt(&subOption,"\nIngrese la opcion: ","\nInvalido, reingrese: ",0,3);
                 switch(subOption)
                 {
                     case 1:
-                    utn_getInt(&order,"\n0.Ascendente\n1.Descendente\norden: ","\nError, reingrese: ",0,1);
+                    utn_getInt(&order,"\n0.Ascendente\n1.Descendente\norden: ","\nInvalido, reingrese: ",0,1);
                     sortEmployees(listEmployees, QTY_EMPLOYEES, order);
                     printEmployees(listEmployees, QTY_EMPLOYEES);
                     break;
