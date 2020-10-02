@@ -25,7 +25,7 @@ int main()
         printf("\n3.BAJA");
         printf("\n4.INFORMAR");
         printf("\n 1.LISTA DE LOS EMPLEADOS ORDENADOS ALFABETICAMENTE POR APELLIDO Y SECTOR");
-        printf("\n 1.TOTAL Y PROMEDIO DE LOS SALARIOS, Y CUANTOS EMPLEADOS SUPERAN EL SALARIO PROMEDIO");
+        printf("\n 2.TOTAL Y PROMEDIO DE LOS SALARIOS, Y CUANTOS EMPLEADOS SUPERAN EL SALARIO PROMEDIO");
         printf("\n5.SALIR\n");
         utn_getInt(&option,"\nIngrese la opcion: ","\nInvalido, reingrese: ",0,7);
 
