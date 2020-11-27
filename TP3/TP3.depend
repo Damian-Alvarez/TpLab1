@@ -129,3 +129,52 @@
 
 1604404932 c:\users\dami_\onedrive\escritorio\tp3\parser.h
 
+1604346983 source:c:\users\dami_\onedrive\escritorio\tpslab\tplab1\tp3\controller.c
+	<stdio.h>
+	<stdlib.h>
+	<limits.h>
+	"LinkedList.h"
+	"Employee.h"
+	"parser.h"
+	"utn.h"
+	"Controller.h"
+
+1533118622 c:\users\dami_\onedrive\escritorio\tpslab\tplab1\tp3\linkedlist.h
+
+1604346983 c:\users\dami_\onedrive\escritorio\tpslab\tplab1\tp3\employee.h
+
+1604404932 c:\users\dami_\onedrive\escritorio\tpslab\tplab1\tp3\parser.h
+
+1604346474 c:\users\dami_\onedrive\escritorio\tpslab\tplab1\tp3\utn.h
+
+1604346983 c:\users\dami_\onedrive\escritorio\tpslab\tplab1\tp3\controller.h
+
+1604347366 source:c:\users\dami_\onedrive\escritorio\tpslab\tplab1\tp3\employee.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+	"Employee.h"
+
+1604346983 source:c:\users\dami_\onedrive\escritorio\tpslab\tplab1\tp3\main.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Controller.h"
+	"Employee.h"
+	"utn.h"
+
+1604347840 source:c:\users\dami_\onedrive\escritorio\tpslab\tplab1\tp3\parser.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Employee.h"
+	"parser.h"
+
+1604346474 source:c:\users\dami_\onedrive\escritorio\tpslab\tplab1\tp3\utn.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"utn.h"
+
